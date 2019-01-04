@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="StyleSheet5.css" />
+</head>
+<body>
+    <h2>Class Attribute</h2>
+    <p>Use CSS to style elements with class</p>
+
+    <button onclick="HideElements()">Hide Cities</button>
+
+    <h2 class="city">Athens</h2>
+    <p>Athens is the capital of Greece</p>
+
+    <h2 class="city">Paris</h2>
+    <p>Paris is the capital of France</p>
+
+    <h2 class="city">Roma</h2>
+    <p id="roma">Roma is the capital of Italy</p>
+    <button onclick="ChangeText()">Destroy Roms</button>
+
+    <script>
+        function HideElements() {
+            var x = document.getElementsByClassName("city");
+            for (var i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+        }
+
+        function ChangeText() {
+            document.getElementById("roma").innerHTML = "Roma is Destroyed...";            
+        }
+    </script>
+
+</body>
+</html>

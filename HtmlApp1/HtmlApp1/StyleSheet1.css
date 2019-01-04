@@ -1,0 +1,43 @@
+﻿body {
+    background-color:aqua 
+}
+
+h1 {
+    background-color:grey;
+    font-family:'Times New Roman', Times, serif;
+}
+
+h3 {
+    color:yellow
+}
+
+p {
+    border: 5px solid black;
+    padding: 20px;
+}
+
+#p1 {
+    color:darkmagenta;
+}
+
+p.bugs{
+    color:indigo;
+}
+
+a:link{
+    color:blue;
+    background-color:transparent;
+    text-decoration:none;
+}
+
+a:visited{
+    color: orange;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover{
+    color:red;
+    background-color: transparent;
+    text-decoration:underline;
+}

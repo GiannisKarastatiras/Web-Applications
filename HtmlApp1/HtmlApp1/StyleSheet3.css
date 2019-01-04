@@ -1,0 +1,16 @@
+﻿table {
+    font-family:Arial;
+    border-collapse:collapse;
+    
+}
+
+td, th {
+    border: 2px solid #0094ff;
+    padding: 8px;
+    text-align:left;
+}
+
+/*Pistopoihsh erwthma*/
+tr:nth-child(even) {
+    background-color:#dddddd;
+}
